@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "63334380856",
+    "firebase_url": "https://instant-helper-14457.firebaseio.com",
+    "project_id": "instant-helper-14457",
+    "storage_bucket": "instant-helper-14457.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63334380856:android:f6afd7b67eae3860",
+        "android_client_info": {
+          "package_name": "org.telegram.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63334380856-s76e0ci406abndnpipeed6d1f862dhjj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.telegram.messenger",
+            "certificate_hash": "c2ef980a81dcb0a936fe1b34f79118ea4205fd0f"
+          }
+        },
+        {
+          "client_id": "63334380856-774nsp0lel8a5behlimic67vhntdp1ik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_x-0fiEVKxFftHQRCyIpJv5gXc3fnJi8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63334380856-774nsp0lel8a5behlimic67vhntdp1ik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63334380856:android:dc022572c167a16c",
+        "android_client_info": {
+          "package_name": "org.telegram.messenger.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63334380856-r9sac5lh5qqi5lbcfo6ok0i4k26753bj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.telegram.messenger.beta",
+            "certificate_hash": "c2ef980a81dcb0a936fe1b34f79118ea4205fd0f"
+          }
+        },
+        {
+          "client_id": "63334380856-774nsp0lel8a5behlimic67vhntdp1ik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_x-0fiEVKxFftHQRCyIpJv5gXc3fnJi8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63334380856-774nsp0lel8a5behlimic67vhntdp1ik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

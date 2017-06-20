@@ -46,9 +46,13 @@ android {
         targetCompatibility JavaVersion.VERSION_1_7
     }
 
+    def RELEASE_STORE_PASSWORD = 'h4Taf3ca';
+    def RELEASE_KEY_PASSWORD = RELEASE_STORE_PASSWORD;
+    def RELEASE_KEY_ALIAS = 'instant_helper';
+
     signingConfigs {
         debug {
-            storeFile file("config/release.keystore")
+            storeFile file("config/release/release.jks")
             storePassword RELEASE_STORE_PASSWORD
             keyAlias RELEASE_KEY_ALIAS
             keyPassword RELEASE_KEY_PASSWORD
@@ -56,7 +60,7 @@ android {
         }
 
         release {
-            storeFile file("config/release.keystore")
+            storeFile file("config/release/release.jks")
             storePassword RELEASE_STORE_PASSWORD
             keyAlias RELEASE_KEY_ALIAS
             keyPassword RELEASE_KEY_PASSWORD
@@ -88,7 +92,7 @@ android {
         }
     }
 
-    defaultConfig.versionCode = 957
+    defaultConfig.versionCode = 1
 
     sourceSets.debug {
         manifest.srcFile 'config/debug/AndroidManifest.xml'
